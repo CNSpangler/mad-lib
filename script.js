@@ -104,4 +104,6 @@ function fillInBlanks() {
 
     const nameB = document.getElementById('nameB');
     nameB.textContent = nameOutput;
+
+    document.getElementById("songResults").style.visibility = "visible";
 };
