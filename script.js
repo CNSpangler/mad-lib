@@ -77,7 +77,31 @@ function fillInBlanks() {
     const adj6 = document.getElementById('adj6');
     adj6.textContent = adj6Output;
 
+    const adj7Input = document.getElementById('adj7Input');
+    const adj7Output = adj7Input.value;
+    const adj7 = document.getElementById('adj7');
+    adj7.textContent = adj7Output;
 
+    const locationInput = document.getElementById('locationInput');
+    const locationOutput = locationInput.value;
+    const location = document.getElementById('location');
+    location.textContent = locationOutput;
 
+    const noun2a = document.getElementById('noun2a');
+    noun2a.textContent = noun2Output;
 
+    const noun3a = document.getElementById('noun3a');
+    noun3a.textContent = noun3Output;
+
+    const nameA = document.getElementById('nameA');
+    nameA.textContent = nameOutput;
+
+    const noun2b = document.getElementById('noun2b');
+    noun2b.textContent = noun2Output;
+
+    const noun3b = document.getElementById('noun3b');
+    noun3b.textContent = noun3Output;
+
+    const nameB = document.getElementById('nameB');
+    nameB.textContent = nameOutput;
 };
