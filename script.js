@@ -105,5 +105,9 @@ function fillInBlanks() {
     const nameB = document.getElementById('nameB');
     nameB.textContent = nameOutput;
 
+    document.getElementById("article").style.visibility = "hidden";
+
+    document.getElementById("header").style.visibility = "hidden";
+    
     document.getElementById("songResults").style.visibility = "visible";
 };
