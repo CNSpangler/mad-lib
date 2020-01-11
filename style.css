@@ -24,11 +24,11 @@ body {
     height: 800px;
     border-style: solid;
     border: 2px indianred;
-    padding-left: 7px;
+    padding-left: 65px;
     padding-top: 60px;
 }
 
-#5 {
+#five {
     visibility: hidden;
 }
 

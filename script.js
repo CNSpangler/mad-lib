@@ -1,6 +1,3 @@
-const button = document.getElementById('button');
-button.addEventListener('click', fillInBlanks);
-
 function fillInBlanks() {
     const nounInput = document.getElementById('nounInput');
     const nounOutput = nounInput.value;
@@ -113,3 +110,6 @@ function fillInBlanks() {
     
     document.getElementById("songResults").style.visibility = "visible";
 };
+
+const button = document.getElementById('button');
+button.addEventListener('click', fillInBlanks);
