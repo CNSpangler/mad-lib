@@ -28,6 +28,10 @@ body {
     padding-top: 60px;
 }
 
+#5 {
+    visibility: hidden;
+}
+
 #songResults{
     visibility: hidden;
     font-weight: normal;
