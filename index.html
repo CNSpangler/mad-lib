@@ -8,10 +8,21 @@
         <link rel="stylesheet" href="style.css">
         <script type="module" src="script.js"></script>
 </head>
+
+<header class="header">
+    <h1>Mad-Lib!</h1>
+    <ol>
+        <li>Choose a word for each part of speech specified below</li>
+        <li>Click the "submit" button</li>
+        <li>A new song will be generated, with your original lyrics!</li>
+        <li>(Hint: It's definitely NOT Tubthumping.</li>
+    </ol>
+</header>
+
 <body>
     <article class="article">
-        <fieldset>
-            <legend class = "legend">Your Words</legend>
+        <fieldset class="fieldset" style="background-color: salmon;">
+            <legend class = "legend" style="background-color: salmon;">Your Words:</legend>
             <label>Noun: <br> 
                 <input id = "nounInput">
             </label><br><br>
@@ -63,8 +74,7 @@
             <label>Location: <br>
                 <input id="locationInput">
             </label><br><br>
-        </fieldset>
-        <div class = "submit">
+        </fieldsetass = "submit">
             <p>Let's go!</p>
             <button id="button"><strong>Submit!</strong></button>
         </div>
